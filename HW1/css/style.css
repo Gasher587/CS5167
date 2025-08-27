@@ -1,0 +1,13 @@
+/* This is an empty style sheet in CSS */
+
+.intro {
+    border-radius: 25px;
+    background: #ffa4a4;
+    padding: 20px;
+    width: 600px;
+}
+
+.images {
+    border-radius: 25px;
+    overflow: hidden;
+}
