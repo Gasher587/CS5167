@@ -46,7 +46,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    &:hover { background-color: rgb(183, 241, 239);; border-radius: 10px;}
   }
 
   .history-item{
