@@ -1,5 +1,5 @@
 <script>
-  let {sleepHours, breakfast, shower, skinCare} = $props();
+  let {sleepHours, breakfast, exercise, shower, skinCare, floss} = $props();
 
 </script>
 
@@ -17,6 +17,12 @@
   |
 
   <div class = "history-item">
+    Exercise: {exercise}
+  </div>
+
+  |
+
+  <div class = "history-item">
     Shower: {shower}
   </div>
 
@@ -24,6 +30,12 @@
 
   <div class = "history-item">
     Skin Care: {skinCare}
+  </div>
+
+  |
+
+  <div class = "history-item">
+    Floss: {floss}
   </div>
 </div>
 
@@ -34,6 +46,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    &:hover { background-color: rgb(183, 241, 239);; border-radius: 10px;}
   }
 
   .history-item{
