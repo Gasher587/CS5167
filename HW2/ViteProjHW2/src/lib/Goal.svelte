@@ -6,10 +6,6 @@
   let newGoal = $state("");
   let newProgress = $state("");
 
-  export const createGoal = () => {
-    
-  };
-
 </script>
 
 <div class="goal-creator">
@@ -18,7 +14,13 @@
   </div>
 
   <div class="goal-description">
-    Progress: {goalProgress}
+    <text>Progress:</text>
+        <input
+          id="goal-entry"
+          type="text"
+          size="60"
+          bind:value={goalProgress}
+        />
   </div>
 
 </div>

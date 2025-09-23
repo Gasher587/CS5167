@@ -55,7 +55,7 @@
       </div>
 
       <div class="goal-description">
-        <text>Progress:</text>
+        <text> Progress:</text>
         <input
           id="goal-description"
           type="text"
